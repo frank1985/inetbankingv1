@@ -27,7 +27,7 @@ public class TC_LoginTest_001 extends BaseClass
 		{	
 			captureScreen(driver, "loginTest");
 			Assert.assertTrue(false);
-			logger.info("Login test failed!!");
+			logger.info("Login test failed!!!");
 		}
 	}
 }
