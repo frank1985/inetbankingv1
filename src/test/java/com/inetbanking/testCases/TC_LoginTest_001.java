@@ -13,10 +13,10 @@ public class TC_LoginTest_001 extends BaseClass
 	{
 		LoginPage lp=new LoginPage(driver);
 		lp.setUserName(username);
-		logger.info("Entered username");
+		logger.info("Entered username...");
 		
 		lp.setPassword(password);
-		logger.info("Entered password");
+		logger.info("Entered password...");
 		lp.clickSubmit();
 		if(driver.getTitle().equals("OrangeHRM"))
 		{
@@ -27,7 +27,7 @@ public class TC_LoginTest_001 extends BaseClass
 		{	
 			captureScreen(driver, "loginTest");
 			Assert.assertTrue(false);
-			logger.info("Login test failed");
+			logger.info("Login test failed!!");
 		}
 	}
 }
